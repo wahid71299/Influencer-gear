@@ -16,7 +16,7 @@ body{
     align-items: center;
 }
 /* first section  */
-section{
+.first-section{
     display: flex;
     margin-left: 60px;
     margin-right: 100px;
@@ -63,41 +63,55 @@ hr{
     width: 80px;
     padding-left: 80px;
 }
+/* wwww */
+.wwww{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
 /* second-section  */
 .second-section{
     display: flex;
     justify-content: center;
-   
+   margin-bottom: 20px;
+   font-size: 1.5em;
    
 }
 /* third-section  */
 .third-section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
-    justify-content: space-between;
+    justify-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 .third-section .box{
+
     width: 300px;
     height: 470px;
-    margin-right: 30px;
-    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
     border-radius: 5px;
    
    
     background-color:  #FFFFFF;
 }
 .third-section div>img{
-    width: 280px;
-    height: 240px;
- 
+    width: 260px;
+    height: 225px;
+    
 }
 .image{
     display: flex;
     flex-direction: column;
     padding-top: 18px;
     /* padding-left: 18px; */
-    padding: 10px;
+    /* padding: 10px; */
+    padding-left: 20px;
+    justify-content: center;
 }
 .image span{
     display: flex;
@@ -108,11 +122,58 @@ span a{
     padding-right: 5px;
     color: goldenrod;
 }
+/* four-section */
 .forth-section{
     display: flex;
     justify-content: flex-end;
 }
+
 .anchor-2 a{
     text-decoration: none;
     color:  rgba(224, 44, 109, 0.87);
+    font-size: 20px;
+    padding-right: 60px;
 }
+/* fifth-section  */
+.fifth-section{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.fifth-section-info{
+    /* margin-left: 60px; */
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+.anchor-last a{
+    text-decoration: none;
+    background-color:  #E02C6D;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}
+/* footer  */
+.last-section{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    text-align: center;
+    
+}
+.footer{
+    padding-top: 20px;
+}
+.fa-brands{
+    color: white;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+/* media quary */
