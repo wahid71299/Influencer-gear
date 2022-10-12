@@ -76,9 +76,9 @@ hr{
 }
 .third-section div{
     width: 300px;
-    height: 450px;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    height: 470px;
+    margin-right: 40px;
+    margin-bottom: 50px;
     border-radius: 5px;
     top: 1035px;
     background-color:  #FFFFFF;
@@ -93,4 +93,12 @@ hr{
     flex-direction: column;
     padding-top: 18px;
     padding-left: 18px;
+}
+.image span{
+    display: flex;
+    text-decoration: none;
+}
+span a{
+    padding-right: 5px;
+    color: goldenrod;
 }
