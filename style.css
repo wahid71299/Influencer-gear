@@ -1,9 +1,10 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background-color:  #AAAAAA;
+   background-color:  #AAAAAA;
+   
 }
 /* head head head  */
-.head{
+.heads{
     margin-top: 40px;
     margin-left: 60px;
     margin-right: 60px;
@@ -44,7 +45,7 @@ h1{
     font-weight: 900;
 
 }
-.camera img{
+.ditails img{
     height: 350px;
     width: 350px;
 }
@@ -54,9 +55,15 @@ hr{
   margin-right: 100px;
   color: rgb(250, 247, 247);
 }
+/* facebook */
+.facebook{
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
 /* logo  */
 .logo{
-    margin-left: 80px;
+    display: flex;
+   
 }
 .logo img{
     height: 50px;
@@ -177,3 +184,61 @@ span a{
     padding-left: 10px;
 }
 /* media quary */
+/* mobile vew  */
+@media only screen and (max-width: 688px) {
+   
+    .containar{
+        width: 100%;
+      
+    }
+    .heads, .first-section, .third-section, .fifth-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .first > h2, .first-section, .box, .fifth-section{
+        flex-direction: column;
+    }
+    .first{
+        text-align: center;
+    }
+    .last{
+        display: none;
+    }
+    h1, h2{
+        text-align: center;
+    }
+    .logo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .third-section{
+        margin-left: 15px;
+        margin-right: 16px;
+    }
+   .fifth-section > .fifth-section-image > img{
+   
+    width: 100%;
+   }
+   
+}
+/* tablet vew  */
+@media only screen and (min-width:688px) and (max-width:992px){
+    .containar{
+        width: 100%;
+    }
+    .third-section{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .logos{
+        grid-template-columns: repeat(2, 1fr);
+        
+        text-align: center;
+    }
+    .imge, .logo{
+        flex-direction: column;
+    } 
+    .fifth-section{
+        display: flex;
+        align-items: center;
+
+    }
+}
